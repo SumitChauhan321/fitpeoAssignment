@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './Component/Header/Header';
+import Dashboard from './Component/Dashboard/Dashboard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <div>
+        <div> <Header /> </div>
+        <div>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

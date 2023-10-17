@@ -1,0 +1,24 @@
+table, th, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  .abstract{
+    background: url('../../images/photo-1618005182384-a83a8bd57fbe.jpg');
+    width: 65px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-radius: 10px;
+  }
+  td{
+    font-size: 12px;
+    text-align: center;
+    padding-top:20px ;
+  }
+ th{
+    font-size: 12px;
+   padding-bottom:10px ;
+   border-bottom: 1px solid black;
+ }

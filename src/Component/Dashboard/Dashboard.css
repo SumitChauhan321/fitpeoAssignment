@@ -1,0 +1,50 @@
+
+.search-box{
+    display: flex;
+    background-color: white;
+    padding: 0.5vh;
+    border-radius: 4px;
+    color: rgb(148,148,148);
+}
+.search-box > span{
+    font-size: large;
+    color: rgb(148,148,148);
+}
+.search-box > input {
+   outline: none;
+}
+
+
+.earning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    padding: 3vh 0.5vw;
+    gap: 5px;
+    border-radius: 5px;
+}
+.earning-logo{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(220,255,235);
+    border-radius: 50%;
+    color: rgb(0,168,71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.earning-logo > span{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+   .dashboard{
+     flex-wrap: wrap;
+   
+   }
+   .table-graph{
+    flex-wrap: wrap;
+   }
+    
+  }

@@ -1,0 +1,66 @@
+
+.overview{
+    background-color: white;
+    width: 50vw;
+    height: 43vh;
+    padding: 20px;
+    border-radius: 5px;
+    /* margin-left: 30px; */
+}
+
+.box{
+    width: 50vw;
+    height: 33vh;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+.box .skill{
+    position: relative;
+    flex: 1;
+    text-align: center;
+
+}
+.box .skill .graph{
+    position: absolute;
+    width: 40px;
+    /* background: rgb(0,0,0,1); */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box .skill .graph::before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 0;
+    background-color: rgb(242,239,255);
+    border-radius: 5px;
+}
+/* .box .skill .graph::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgb(255,255,255,.1);
+
+} */
+/* .box .skill .graph .percent{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    font-weight: bold;
+    
+} */
+.box .skill .month{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
